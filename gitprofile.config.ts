@@ -110,15 +110,27 @@ const CONFIG = {
   certifications: [
     {
       name: 'Google Cloud Certified Professional Machine Learning Engineer',
-      body: 'A Professional Machine Learning Engineer builds, evaluates, productionizes, and optimizes ML models by using Google Cloud technologies and knowledge of proven models and techniques. The ML Engineer handles large, complex datasets and creates repeatable, reusable code. The ML Engineer considers responsible AI and fairness throughout the ML model development process, and collaborates closely with other job roles to ensure long-term success of ML-based applications.',
+      body: 'Issued by Google Cloud',
       year: 'July 2025',
       link: 'https://www.credly.com/badges/e9a63dd1-8acb-4348-9dd3-ae87f107ea2a',
     },
     {
+      name: 'AWS Certified DevOps Engineer - Professional',
+      body: 'Issued by Amazon Web Services Training and Certification',
+      year: 'December 2024',
+      link: 'https://www.credly.com/badges/75d34a50-d4a3-4592-8f5f-dff50db2ad22',
+    },
+    {
       name: 'AWS Certified Machine Learning - Specialty',
-      body: 'Earners of this certification have an in-depth understanding of AWS machine learning (ML) services. They demonstrated ability to build, train, tune, and deploy ML models using the AWS Cloud. Badge owners can derive insight from AWS ML services using either pretrained models or custom models built from open-source frameworks.',
+      body: 'Issued by Amazon Web Services Training and Certification',
       year: 'August 2024',
       link: 'https://www.credly.com/badges/bf38baa8-4a04-4a49-a847-55a2ede23231',
+    },
+    {
+      name: 'AWS Certified Solutions Architect - Associate',
+      body: 'Issued by Amazon Web Services Training and Certification',
+      year: 'December 2023',
+      link: 'https://www.credly.com/badges/9e349059-70a3-43d9-947c-81fbc966aab5',
     },
   ],
   educations: [
