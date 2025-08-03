@@ -14,7 +14,8 @@ const ListItem = ({
   company?: React.ReactNode;
   companyLink?: string;
   description?: React.ReactNode
-}) => (
+  }) => (
+  
   <li className="mb-5 ml-4">
     <div
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
@@ -22,7 +23,7 @@ const ListItem = ({
     ></div>
     <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{position}</h3>
-    <div className="mb-4 font-normal">
+    <div className="font-semibold">
       <a href={companyLink} target="_blank" rel="noreferrer">
         {company}
       </a>
@@ -54,6 +55,7 @@ const ExperienceCard = ({
             className: 'my-1.5',
           })}
           company={skeleton({ widthCls: 'w-6/12', heightCls: 'h-3' })}
+          description={skeleton({ widthCls: 'w-8/12', heightCls: 'h-4' })}
         />,
       );
     }
@@ -78,21 +80,23 @@ const ExperienceCard = ({
               renderSkeleton()
             ) : (
               <Fragment>
-                {experiences.map((experience, index) => (
-                  <ListItem
-                    key={index}
-                    time={`${experience.from} - ${experience.to}`}
-                    position={experience.position}
-                    company={experience.company}
-                    description={experience.description}
-                    companyLink={
-                      experience.companyLink
-                        ? experience.companyLink
-                        : undefined
-                    }
+                  {experiences.map((experience, index) => {
+                    return (
+                      <ListItem
+                        key={index}
+                        time={`${experience.from} - ${experience.to}`}
+                        position={experience.position}
+                        company={experience.company}
+                        description={experience.description}
+                        companyLink={
+                          experience.companyLink
+                            ? experience.companyLink
+                            : undefined
+                        }
                     
-                  />
-                ))}
+                      />
+                    );
+              })}
               </Fragment>
             )}
           </ol>

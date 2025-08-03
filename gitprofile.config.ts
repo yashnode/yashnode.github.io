@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Yash Talwar', description: 'Experienced in designing and delivering secure, GenAI solutions with a strong focus on scalable architectures and stakeholder collaboration. Proficient in AWS, Python, GenAI and containerized deployments, optimizing enterprise processes for performance and scalability. Passionate about automation, data driven decision making, and delivering AI driven innovations.', imageURL: '' },
+  seo: { title: 'Portfolio of Yash Talwar', description: 'Experienced in designing and delivering secure, GenAI solutions with a strong focus on scalable architectures and stakeholder collaboration.', imageURL: '' },
   social: {
     linkedin: 'yashnode',
     x: 'yashnode',
@@ -83,6 +83,7 @@ const CONFIG = {
     'Python',
     'Machine Learning',
     'Generative AI',
+    'Natural Language Processing (NLP)',
     'Cloud',
     'AWS',
     'GCP',
@@ -98,6 +99,7 @@ const CONFIG = {
       from: 'June 2025',
       to: 'Present',
       companyLink: '',
+      description: 'As an AI/ML Analyst, designed and deployed GenAI-powered, end-to-end business solutions leveraging traditional machine learning, NLP, agentic AI, and computer vision.'
     },
     {
       company: 'Deloitte',
@@ -105,6 +107,7 @@ const CONFIG = {
       from: 'December 2022',
       to: 'May 2025',
       companyLink: '',
+      description: 'Developed a GenAI-powered internal platform that enables practitioners to efficiently address business requirements using Python, cloud technologies, and computer vision.'
     },
   ],
   certifications: [
