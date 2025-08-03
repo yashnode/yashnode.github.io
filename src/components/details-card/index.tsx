@@ -5,6 +5,7 @@ import {
   AiFillMediumSquare,
 } from 'react-icons/ai';
 import { CgDribbble } from 'react-icons/cg';
+import { SiCredly } from "react-icons/si";
 import {
   FaBehanceSquare,
   FaBuilding,
@@ -359,6 +360,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`mailto:${social.email}`}
                 />
               )}
+              {social?.credly && (
+                <ListItem
+                  icon={<SiCredly />}
+                  title="credly:"
+                  value={social.email}
+                  link={`https://credly.com/user/${social.credly}`}
+                />
+              )}  
               {social?.discord && (
                 <ListItem
                   icon={<RiDiscordFill />}
