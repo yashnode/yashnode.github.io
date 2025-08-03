@@ -206,6 +206,12 @@ interface Social {
    * Discord username
    */
   discord?: string;
+ 
+  /**
+   * Credly username
+   */
+  credly?: string;
+
 }
 
 interface Resume {
