@@ -84,12 +84,13 @@ const ExperienceCard = ({
                     time={`${experience.from} - ${experience.to}`}
                     position={experience.position}
                     company={experience.company}
+                    description={experience.description}
                     companyLink={
                       experience.companyLink
                         ? experience.companyLink
                         : undefined
                     }
-                    description={experience.description}
+                    
                   />
                 ))}
               </Fragment>
