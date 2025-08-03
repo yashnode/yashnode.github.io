@@ -364,7 +364,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 <ListItem
                   icon={<SiCredly />}
                   title="credly:"
-                  value={social.email}
+                  value={social.credly}
                   link={`https://credly.com/user/${social.credly}`}
                 />
               )}  

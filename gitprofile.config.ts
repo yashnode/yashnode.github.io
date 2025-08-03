@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Yash Talwar', description: 'Experienced in designing and delivering secure, GenAI solutions with a strong focus on scalable architectures and stakeholder collaboration. Proficient in AWS, Python, GenAI and containerized deployments, optimizing enterprise processes for performance and scalability. Passionate about automation, data driven decision making, and delivering AI driven innovations.', imageURL: '' },
   social: {
     linkedin: 'yashnode',
     x: 'yashnode',
@@ -70,14 +70,14 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: '',
+    website: 'https://yashnode.github.io',
     phone: '',
     credly:'yashtalwar',
     email: 'yashtalwarwork@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://flowcv.com/resume/cv843kk3q1', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
