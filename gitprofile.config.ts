@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['yashnode/AddToCalender-HLTV.org'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -94,10 +94,17 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Bristol Myers Squibb',
+      position: 'Software Engineer II',
+      from: 'December 2025',
+      to: 'Present',
+      description: 'Driving innovation and data-driven decision-making by designing and developing GenAI-powered internal platforms for the Data Capability Group, utilizing Python, Generative AI, and cloud technologies.',
+    },
+    {
       company: 'Deloitte',
       position: 'Analyst',
       from: 'June 2025',
-      to: 'Present',
+      to: 'December 2025',
       companyLink: '',
       description: 'As an AI/ML Analyst, designed and deployed GenAI-powered, end-to-end business solutions leveraging traditional machine learning, NLP, agentic AI, and computer vision.'
     },
