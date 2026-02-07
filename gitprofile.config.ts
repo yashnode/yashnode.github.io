@@ -96,7 +96,7 @@ const CONFIG = {
     {
       company: 'Bristol Myers Squibb',
       position: 'Software Engineer II',
-      from: 'December 2025',
+      from: 'January 2025',
       to: 'Present',
       description: 'Driving innovation and data-driven decision-making by designing and developing GenAI-powered internal platforms for the Data Capability Group, utilizing Python, Generative AI, and cloud technologies.',
     },
